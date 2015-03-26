@@ -3,3 +3,12 @@
 .main-content{
     margin-top:12em;
 }
+
+.header-area{
+   background-color: #00FFFF;
+
+}
+.header-area > h3{
+  text-align: center;
+
+}

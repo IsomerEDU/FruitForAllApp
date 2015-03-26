@@ -1,4 +1,21 @@
-<div class="bar bar-header bar-assertive">
-    <h1 class="title">Add Photos</h1>
+<div ng-controller="AddphotoController">
+<ion-view title="Add Photo">
+    <ion-content has-bouncing="true">
+        <div class="header-area padding">
+            <h3 class="sub-header">Select you Photo</h3>
+        </div>
+
+<div class="row">
+    <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+    <img ng-show="imgURI === undefined" ng-src="http://placehold.it/150x150">
+</div>
+<div class="row">
+    <button class="button button-full button-assertive" ng-click="getPhoto()">
+       Take your photo
+    </button>
 </div>
 
+    </ion-content>
+</ion-view>
+
+</div>
