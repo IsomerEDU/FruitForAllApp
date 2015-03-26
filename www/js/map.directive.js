@@ -1,5 +1,5 @@
 /**
- * Created by steve on 3/17/15.
+ * Created by steve on 3/25/15.
  */
 angular.module('starter').controller('LocationController', ['$scope',
     function($scope) {
@@ -11,4 +11,3 @@ angular.module('starter').controller('LocationController', ['$scope',
     }
 
 ]);
-
